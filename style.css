@@ -1,0 +1,113 @@
+body {
+	background-color: #FFF7F1;
+	color: #608BC1;
+	font-family: "Lora", serif;
+	font-size: 18px;
+	font-weight: lighter;
+}
+
+h1, h2 {
+	font-family: "Noto Serif", serif;
+}
+
+h1 {
+	color: #133E87;
+	letter-spacing: 5px;
+	font-size: 45px;
+	font-weight: !important;
+}
+
+img {
+	border-radius: 50%;
+	width:  200px;
+	heiht: auto;
+
+}
+
+h2 {
+	color: #800000;
+	font-size: 25px;
+	font-weight: normal;
+}
+a {
+	text-decoration: none;
+	color: #133E87;
+	font-weight: bold;
+	font-family: "Noto Serif", serif;
+}
+a:hover {
+	color: #982B1C;
+}
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+
+@media (max-width: 700px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 5px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+.btn-blue {
+	background-color: #133E87;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 5px;
+}
+
+.btn-blue:hover {
+	background-color: black;
+	color: white;
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: online;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 50px;
+	color: rgb(230,230,230);
+
+}
+.list-inline i:hover {
+	color: black;
+}
+#introduction p {
+	margin-bottom:40px ;
+}	
+
+ul {
+	list-style-position:  inside;
+	padding-left: 20px;
+}	
+
+li {
+	padding-left:  0px;
+	margin:  0;
+}
+
